@@ -1,0 +1,168 @@
+@media (max-width: 760px){
+  .container{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  .section__intro{
+    margin-bottom: -10%; 
+
+    h1{
+      font-size: 1.9rem;
+    }
+  }
+
+   /**
+  Articles
+  */
+  .main-articles{
+    
+    .article-capacidad{
+      text-align: center;
+      padding-left: 2%;
+    }
+
+    article{
+      flex-direction: column-reverse;
+      align-items: center;
+
+      h3{
+        margin-right: auto;
+        margin-left: auto;
+        margin-left:10%; 
+      }
+
+      figure{
+        max-width: 100%;
+
+        img{
+          width: 500px;
+          height: 500px;
+          margin-bottom: -18%; 
+
+        }
+      }
+
+      p{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        margin-right: auto;
+        margin-left: auto; 
+      }
+
+      &:nth-child(odd){
+        flex-direction: column-reverse;
+      }
+    }
+  }
+
+  /*Form*/
+
+  .section__form{
+    .modal-dialog{
+      & > p{
+        font-size: 16px;
+        margin-right: 3%;
+        padding-bottom: 2%;
+        width: 100%; 
+    }
+
+    #close-modal{
+      float: left;
+      width: 100%;
+      font-size:13px;
+      padding: 8%;
+    }
+  }
+  .boton{
+    float: left;
+    width: 100%;
+  }
+
+
+  }
+}
+
+@media (max-width: 640px){
+  .container{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+  }
+  /**
+  Intro section
+  */
+  .section__intro{
+    margin-bottom: -10%; 
+
+    h1{
+      font-size: 1.9rem;
+    }
+  }
+
+  .main-articles{
+
+    .article-capacidad{
+      text-align: center;
+      padding-left: 2%;
+    }
+
+    article{
+      flex-direction: column-reverse;
+      align-items: center;
+
+      h3{
+        margin-left:1%; 
+      }
+
+      figure{
+        max-width: 300%;
+
+        img{
+          width: 450px;
+          height: 450px;
+          margin-bottom: -18%; 
+        }
+      }
+
+      p{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        width: 100%;   
+      }
+
+      &:nth-child(odd){
+        flex-direction: column-reverse;
+      }
+    }
+  }
+
+  /*Form*/
+
+  .section__form{
+
+    .modal-dialog{
+      & > p{
+        font-size: 16px;
+        margin-right: 3%;
+        padding-bottom: 2%;
+        width: 100%; 
+    }
+
+    #close-modal{
+      float: left;
+      width: 100%;
+      font-size:13px;
+      padding: 8%;
+    }
+    }
+
+  .boton{
+    float: left;
+    width: 100%;
+  }
+  }
+}
